@@ -4,6 +4,14 @@ This repository contains the complete and reproducible statistical analysis for 
 
 ---
 
+**Note:** Due to a GitHub rendering issue, the Jupyter Notebook (`cycling_mixed_effects.ipynb`) may not display correctly in the GitHub web interface.  
+The PDF provides a fully rendered and reliable version of the complete analysis.
+
+The notebook and the PDF correspond **exactly** to the results reported in the final written report.
+
+
+---
+
 ## Dataset
 
 - **File:** `cycling.txt`
@@ -60,6 +68,20 @@ Because the response variable (`points`) is zero-inflated and right-skewed, infe
 
 ---
 
+## Analysis Files
+
+- **Jupyter Notebook:** `cycling_mixed_effects.ipynb`  
+  Contains the complete, executable analysis workflow.
+
+- **PDF Export:** `cycling_mixed_effects.pdf`  
+  A direct export of the executed notebook containing:
+  - All analysis code
+  - All outputs and tables
+  - All figures and diagnostic plots
+  - All inferential results
+
+---
+
 ## Dependencies
 
 The analysis was conducted in Python using:
@@ -75,7 +97,7 @@ The analysis was conducted in Python using:
 
 ## Reproducibility
 
-Running `analysis/cycling_analysis.py` reproduces:
+Running the notebook `cycling_mixed_effects.ipynb` reproduces:
 - All descriptive tables
 - All figures included in the report
 - All inferential results and diagnostics
@@ -87,4 +109,4 @@ No manual data preprocessing is required.
 ## Notes
 
 This repository reflects the **final version** of the analysis used in the submitted report.  
-Exploratory or alternative methods tested earlier are intentionally excluded to ensure consistency between code and report.
+Exploratory or alternative methods tested earlier are intentionally excluded to ensure full consistency between the code, outputs, and the report.
